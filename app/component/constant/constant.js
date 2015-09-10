@@ -7,10 +7,10 @@
     .module('myApp.shared')
     .constant('Constant', {
       URL: {
-        LOGIN: prefix + 'vehicle-admin/auth/login',
-        CHECK_LOGIN: prefix + 'vehicle-admin/auth/loggedin',
-        USERS: prefix + 'vehicle-admin/users',
-        PROJECTS: prefix + 'vehicle-admin/projects'
+        LOGIN: prefix + 'auth/login',
+        CHECK_LOGIN: prefix + 'auth/loggedin',
+        USERS: prefix + 'users',
+        PROJECTS: prefix + 'projects'
       }
     });
 
