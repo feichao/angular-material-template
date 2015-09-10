@@ -1,0 +1,43 @@
+$primary-color: rgb(33, 150, 243);
+$grey-color: rgba(0, 0, 0, 0.54);
+@import "_login";
+@import "_dashboard";
+input {
+  text-shadow: none !important;
+}
+
+a {
+  cursor: pointer;
+}
+
+.white-hr {
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.wrapper {
+  border: 1px solid transparent;
+  height: 100%;
+  margin: -1px 0;
+}
+
+.center {
+  text-align: center;
+}
+
+body {
+  min-width: 1200px;
+}
+
+.error-msg {
+  height: 20px;
+  color: red;
+}
+
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
